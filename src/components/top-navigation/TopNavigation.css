@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav-nav{
+    background-color: rgb(119, 144, 253);
+    overflow: hidden;
+}
+
+.topnav-nav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav-nav a:hover{
+    background-color: rgb(68, 101, 247);
+    color: black;
+}
+
+.topnav-search{
+    float: right;
+}
+.topnav-nav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav-nav button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
